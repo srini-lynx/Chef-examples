@@ -20,7 +20,7 @@ cat .gitignore
 
 4> Add the remote repository to local M/C
 
-$[vagrant@chef-node$] git remote add origin https://github.com/srini-lynx/Chef-example.git 
+$[vagrant@chef-node$] git remote add origin https://github.com/srini-lynx/Chef-examples.git 
 
 (remote repository ... which is empty is added to local m/c)
 
