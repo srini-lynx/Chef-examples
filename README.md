@@ -41,4 +41,10 @@ $[vagrant@chef-nodes$] git push -u origin master
 9> Any time We need to do the local Change, First the changes has to be pulled from master , and then only the changes has to be 
 made to local m/c and it has to be pushed back to master as a "standard practise"
 
+10> login to vagrant chef-node and install the chefdk with the below command
+
+[vagrant@chef-node$] curl https://omnitruck.chef.io/install.sh | sudo bash -s -- -P chefdk -c stable -v 0.18.30 
+
+
+
 
